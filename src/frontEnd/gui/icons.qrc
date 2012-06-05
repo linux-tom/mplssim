@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="">
+   <file>icons/lsr.png</file>
+   <file>icons/ip.png</file>
+   <file>icons/client.png</file>
+   <file>icons/server.png</file>
+   <file>icons/del.png</file>
+   <file>icons/switch.png</file>
+ 
+</qresource>
+</RCC>

@@ -1,0 +1,31 @@
+#ifndef MPLS_PACKET
+#define MPLS_PACKET
+
+class MplsPacket
+{
+
+public:
+	MplsPacket();
+	~MplsPacket();
+
+private:
+	struct activity
+	{
+		uint8_t ttl;
+		std::string nextHop;
+		std::string currentNode;
+		float currentTime;
+	};
+public:
+	std::string currentNode;
+	std::string nextHop;	
+
+	std::string source;	
+	std::string destination;	
+	
+	uint8_t ttl;	
+	void moveToNext();
+	
+	std::vector<activity*> activityVector;
+};
+#endif
