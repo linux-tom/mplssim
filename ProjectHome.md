@@ -1,0 +1,1 @@
+This is an MPLS simulator based on the NS3 MPLS module http://code.google.com/p/ns-3-shop/ . The graphical User interface is built with QT.
